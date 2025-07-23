@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="asset/style.css">
+    <title>Graduation - Neil Bryan Lojo Pita</title>
+</head>
+<body>
+
+    <!--Hero Section-->
+    <section class="min-h-screen flex items-center justify-center bg-[url('asset/images/hero-bg.png')] bg-cover bg-center relative" style="filter: brightness(1);">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="w-full flex flex-col items-center justify-center text-center relative z-10 px-4">
+            <img class="h-48 w-48 sm:h-72 sm:w-72 mx-auto" src="asset/images/grad-pic-hero.png">
+            <h1 class="text-3xl sm:text-6xl font-bold text-white mt-6 drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">Neil Bryan Lojo Pita</h1>
+            <h3 class="text-lg sm:text-2xl font-regular text-white mt-4">Graduate, Batangas State University - The National Engineering University Lipa</h3>
+            <button onclick="document.getElementById('hallOfFame').scrollIntoView({ behavior: 'smooth' });" class="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Read my story</button>
+        </div>
+    </section>
+
+    <!--HallOfFame Section-->
+    <section class="bg-white flex flex-col md:flex-row drop-shadow-md h-auto" id="hallOfFame">
+        <div class="w-full md:w-1/2 flex flex-col gap-2 bg-gray-100 justify-center">
+            <div class="flex flex-row gap-2 md:gap-4 ml-4 md:ml-6 mt-4 md:mt-8 justify-center">
+                <img class="w-1/2 md:w-1/3 max-w-xs object-contain" src="asset/hall-1.png" alt="Hall 1">
+                <img class="w-1/2 md:w-1/3 max-w-xs object-contain" src="asset/hall-2.png" alt="Hall 2">
+            </div>
+            <div class="flex flex-row gap-2 md:gap-4 ml-4 md:ml-6 mb-4 md:mb-8 justify-center">
+                <img class="w-1/2 md:w-1/3 max-w-xs object-contain" src="asset/hall-3.png" alt="Hall 3">
+                <img class="w-1/2 md:w-1/3 max-w-xs object-contain" src="asset/hall-4.png" alt="Hall 4">
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 flex flex-col justify-center px-4 md:px-8 py-6">
+            <div class="margin-container">
+                <div class="flex flex-row gap-2 items-center mb-2">
+                    <img class="w-8 h-8" src="asset/trophy.png" alt="Trophy">
+                    <div class="inline-block p-2 bg-red-900 rounded">
+                        <h1 class="text-white font-bold text-lg md:text-xl lg:text-2xl">Hall of Fame</h1>
+                    </div>
+                </div>
+                <div class="message-container flex flex-col mt-4 items-start text-left">
+                    <ul class="list-disc ml-6 text-regular mt-2 text-sm md:text-base">
+                        <li>Rank 2 - Ten Outstanding Student Awards</li>
+                        <li>ITPEC Gold Award | PhilNITS Level 1 Passer</li>
+                        <li>Certified Lean Six Sigma Yellow Belt</li>
+                        <li>Certified Google Data Analytics Professional</li>
+                        <li>Certified Safety Officer 1</li>
+                        <li>Dean’s List (4 consecutive semesters)</li>
+                        <li>Service Award, Alliance of Industrial Technology Students (Vice President and ComDRRM Head)</li>
+                        <li>Service Award, Supreme Student Council (SSC ComDRRM member and AITS Vice President)</li>
+                        <li>Leadership Award (NROTC)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MyParent Section-->
+<section class="h-auto drop-shadow-md bg-white flex flex-col md:flex-row">
+    <!-- Image first on mobile, second on md and up -->
+    <div class="order-1 md:order-2 w-full md:w-1/2">
+        <img class="h-64 sm:h-full w-full object-cover object-top" src="asset/images/my-parents.png" alt="My Parents">
+    </div>
+
+    <!-- Text second on mobile, first on md and up -->
+    <div class="order-2 md:order-1 w-full md:w-1/2 flex flex-col justify-center px-4 md:px-10 py-6">
+        <div class="margin-container">
+            <!-- <div class="inline-block p-2 bg-red-900 rounded">
+                <h1 class="text-white text-lg sm:text-xl">To my parents</h1>
+            </div> -->
+            <div class="message-container flex flex-col mt-6 sm:mt-5 sm:ml-5 items-left text-left">
+                <h3 class="text-regular text-base sm:text-lg">Today is a day of</h3>
+                <h1 class="font-bold text-blue-900 text-xl sm:text-3xl">victory and answered prayers.</h1>
+                <p class="text-regular text-sm sm:text-base">
+                    Malaking tagumpay ito para sa aking mga magulang. Mame, dade. Graduate na po ako!. Maraming salamat at napagtapos niyo po ako. Hindi biro ang mahigit dalawang dekada na pag-aaruga at pag-aalaga niyo sa akin. Maraming salamat po sa suporta. Sa mga bawat oportunidad at pagkakataon na dumarating sa akin, kayo ang unang nakasuporta sa akin. Salamat po sa pag-inspire sa akin na gawin lahat ng makakaya ko sa mga bagay na kaya ko.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="min-h-screen drop-shadow-md flex flex-col w-full bg-gray-50">
+        <div class="w-full flex flex-col p-4 px-4 sm:px-10">
+            <h1 class="font-bold text-black-900 text-2xl sm:text-3xl">Milestone. Triumph. Achievement.</h1>
+        </div>
+        <div class="message-container px-4 sm:px-10">
+            <p class="text-regular text-sm sm:text-base">Through my college journey, I have learned to be “extraordinary in ordinary things” which led to me achieving milestones, reaching different opportunities and inspiring my fellow students. I knew things wouldn’t be easy because they wont be either in the real world. To Sir Rexon na naunang nagtiwala sa akin sa org, kay Sir Philip na napakasupportive sa aming endeavours at laging kapag may opportunity ay sasabihan agad ako, maraming salamat po!.</p>
+        </div>
+        <div class="image-container flex flex-col sm:flex-row mt-4 w-full gap-2 px-4 sm:px-10">
+            <img src="asset/images/achivement-1.png" alt="Achievement 1" class="w-full sm:w-1/4 h-auto object-cover mb-2 sm:mb-0">
+            <img src="asset/images/achievement-2.png" alt="Achievement 2" class="w-full sm:w-1/4 h-auto object-cover mb-2 sm:mb-0">
+            <img src="asset/images/achievement-3.png" alt="Achievement 3" class="w-full sm:w-1/4 h-auto object-cover mb-2 sm:mb-0">
+            <img src="asset/images/achievement-4.png" alt="Achievement 4" class="w-full sm:w-1/4 h-auto object-cover">
+        </div>
+    </section>
+
+    <section class="min-h-screen bg-white flex flex-col">
+        <div class="message-container flex flex-col p-4 px-4 sm:px-10 mt-2">
+            <h1 class="font-bold text-red-900 text-2xl sm:text-3xl">In service to the Community.</h1>
+            <div class="message-container">
+                <p class="text-regular text-sm sm:text-base">
+                Gusto kong pasalamatan ang mga organisasyong nakasama ko sa paglilingkod ng komunidad. Pamula sa Red Cross Youth BatStateU The NEU Council, Alliance of Industrial Technology Students, Supreme Student Council BatStateU The NEU Lipa, at Society of Engineering Technology Students, maraming salamat po sa pagtanggap. Gusto ko rin pasalamatan sina Sir Rexon, Ma’am Jhane, Sir Sky at Sir Baja na mga tagapayo ko sa organisasyon.
+                </p>
+            </div>
+            <div class="image-container flex flex-col gap-2 mt-4">
+                <!--First-Row Container-->
+                <div class="flex flex-col sm:flex-row w-full gap-2">
+                    <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center mb-2 w-full sm:w-1/3">
+                        <img src="asset/org-1.png" alt="Organization 1" class="h-auto object-cover mb-2">
+                        <p class="font-bold text-lg sm:text-xl text-center">Alliance of Industrial Technology Students</p>
+                        <p class="font-regular text-center">ComDRRM Head</p>
+                        <p class="font-regular text-center">AY 2022-2023</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center mb-2 w-full sm:w-1/3">
+                        <img src="asset/org-2.png" alt="Organization 2" class="h-auto object-cover mb-2">
+                        <p class="font-bold text-lg sm:text-xl text-center">Supreme Student Council BatStateU The NEU Lipa</p>
+                        <p class="font-regular text-center">ComDRRM Member</p>
+                        <p class="font-regular text-center">AY 2023-2024</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center mb-2 w-full sm:w-1/3">
+                        <img src="asset/org-3.png" alt="Organization 3" class="h-auto object-cover mb-2">
+                        <p class="font-bold text-lg sm:text-xl text-center">Alliance of Industrial Technology Students</p>
+                        <p class="font-regular text-center">Vice President</p>
+                        <p class="font-regular text-center">AY 2023-2024</p>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-row w-full gap-2">
+                    <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center mb-2 w-full sm:w-1/3">
+                        <img src="asset/org-4.png" alt="Organization 4" class="h-auto object-cover mb-2">
+                        <p class="font-bold text-lg sm:text-xl text-center">Society of Engineering Technology Students</p>
+                        <p class="font-regular text-center">College of Engineering Technology Governor</p>
+                        <p class="font-regular text-center">AY 2024-2025</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center mb-2 w-full sm:w-1/3">
+                        <img src="asset/org-6.png" alt="Organization 5" class="h-auto object-cover mb-2">
+                        <p class="font-bold text-lg sm:text-xl text-center">Supreme Student Council BatStateU The NEU Lipa</p>
+                        <p class="font-regular text-center">College of Engineering Technology Governor</p>
+                        <p class="font-regular text-center">AY 2024-2025</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-md p-4 flex flex-col items-center mb-2 w-full sm:w-1/3">
+                        <img src="asset/org-7.png" alt="Organization 6" class="h-auto object-cover mb-2">
+                        <p class="font-bold text-lg sm:text-xl text-center">Association of Computer Engineering Technology Students</p>
+                        <p class="font-regular text-center">(Sinama lang ako sa picture)</p>
+                        <p class="font-regular text-center">AY 2024-2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-10 border-t-2 border-gray-300 w-full mx-auto">
+
+    <!--TOSA Section-->
+    <section class="TOSA h-auto flex flex-col">
+        <div class="w-full px-4 sm:px-10">
+            <h3 class="font-bold text-2xl sm:text-3xl text-red-900">Ten Outstanding Student Awards</h3>
+            <p class="text-regular mb-5 text-sm sm:text-base">Being awarded as one of Batangas State University - The National Engineering University Lipa's Ten Outstanding Student Award (Rank 2) is unexpected and at the same time it a great honor. When I was applying for it, I reminded myself that by doing this, I am not just doing it for myself but for my family, friends, and the community who supported me throughout my journey.</p>
+        </div>
+        <div class="first-row-container flex flex-col w-full h-auto gap-2 px-4 sm:px-10">
+            <img src="asset/tosa-4.png" alt="TOSA 1" class="w-full h-auto object-cover">
+            <img src="asset/tosa-5.png" alt="TOSA 1" class="w-full h-auto object-cover">
+        </div>
+    </section>
+
+    <hr class="my-10 border-t-2 border-gray-300 w-full mx-auto">
+
+    <!--Acknowledgements-->
+    <section class="h-auto drop-shadow-md bg-white flex flex-col mb-2">
+        <div class="container px-4 sm:px-10 sm:h-auto mb-5">
+            <h1 class="text-2xl sm:text-3xl font-bold text-blue-900">Acknowledgements</h1>
+            <p class="font-regular text-sm sm:text-base">This milestone in my life is dedicated to the following individuals and groups who have supported me throughout my journey:</p>
+            <ul class="list-disc list-inside text-sm sm:text-base px-4">
+                <li>To our Lord, who has been my guiding light—thank you!</li>
+                <li>My family—Mame, Dade, Nikki, and Nathan—for their unwavering support.</li>
+                <li>My best friends for their encouragement and companionship: James, Ray, Jamalle, Trixie, JP, Jerwin, Ange, Kaye, Kyla, and Syllmar. Maraming salamat lagi!</li>
+                <li>Sa aking mga ka-group sa thesis, Elijah, Jamalle and MJ, maraming salamat sa pagtatiyaga sa akin.!</li>
+                <li>My teachers and advisers for their unwavering guidance and support: Ma'am Jhane, Sir Philip, Sir Sky, and Sir Rexon. Maraming salamat po!</li>
+                <li>TULAY Project na tumanggap sa akin ngayong taon at nagbigay ng napakaraming opportunities, salamat</li>
+                <li>To my orgmates—SSC, AITS, SETS, and RCYC—too many to mention, but thank you all so much!</li>
+                <li>And lastly, my classmates, for the shared experiences.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="send-gift h-auto mb-10">
+        <div class="w-full px-4 sm:px-10 mt-10">
+            <h3 class="font-bold text-2xl sm:text-3xl text-red-900 mb-2">Sending gift?</h3>
+            <p class="text-regular mb-2 text-sm sm:text-base">I'm honestly shy about with gifts, especially with money. But hey, it's graduation season.</p>
+        </div>
+        <div class="logo-container w-full flex flex-col sm:flex-row px-4 sm:px-10 gap-2">
+            <!-- Button to open modal -->
+            <button id="openGcashModalBtn" class="rounded-lg flex items-center gap-3 px-4 py-2 bg-blue-900 text-white hover:bg-blue-700 transition focus:outline-none mb-2 sm:mb-0">
+                <img class="h-8 w-8" src="asset/gcash-logo.png" alt="GCash Logo">
+                Send via GCash
+            </button>
+            <button id="openMayaModalBtn" class="rounded-lg flex items-center gap-3 px-4 py-2 bg-green-900 text-white hover:bg-green-700 transition focus:outline-none mb-2 sm:mb-0">
+                <img class="h-8 w-8" src="asset/maya-logo.png" alt="Maya Logo">
+                Send via Maya
+            </button>
+            <button id="openGotymeModalBtn" class="rounded-lg flex items-center gap-3 px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 transition focus:outline-none">
+                <img class="h-8 w-8" src="asset/gotyme-logo.png" alt="Gotyme Logo">
+                Send via Gotyme
+            </button>
+            <!-- GCash Modal backdrop and content -->
+            <div id="gcashModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 hidden">
+                <div class="bg-white rounded-lg shadow-lg p-4 sm:p-8 max-w-xs sm:max-w-sm w-full relative">
+                    <h2 class="font-regular mb-4 text-black text-center">Send gift to Neil</h2>
+                    <img class="mx-auto mb-4 w-40" src="asset/gcash-qr.jpg" alt="GCash Logo">
+                    <p class="mb-2 text-center">Send your gift via <span class="font-bold text-blue-900">GCASH</span>:</p>
+                    <p class="font-regular mb-2"><span class="font-bold">Account Name:</span> Neil Bryan L. Pita</p>
+                    <p class="font-regular mb-2"><span class="font-bold">Account Number:</span> 09913451748</p>
+                    <button class="rounded-lg w-full bg-blue-900 p-2 text-white font-bold" id="closeGcashModalBtn">Thank you so much!</button>
+                </div>
+            </div>
+            <!-- Maya Modal backdrop and content -->
+            <div id="mayaModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 hidden">
+                <div class="bg-white rounded-lg shadow-lg p-4 sm:p-8 max-w-xs sm:max-w-sm w-full relative">
+                    <h2 class="font-regular mb-4 text-black text-center">Send gift to Neil</h2>
+                    <img class="mx-auto mb-4 w-40" src="asset/maya-qr.jpg" alt="Maya Logo">
+                    <p class="mb-2 text-center">Send your gift via <span class="font-bold text-green-900">MAYA</span>:</p>
+                    <p class="font-regular mb-2"><span class="font-bold">Account Name:</span> Neil Bryan L. Pita</p>
+                    <p class="font-regular mb-2"><span class="font-bold">Account Number:</span> 09913451748</p>
+                    <button class="rounded-lg w-full bg-green-900 p-2 text-white font-bold" id="closeMayaModalBtn">Thank you so much!</button>
+                </div>
+            </div>
+            <!--- Gotyme Modal backdrop and content  -->
+            <div id="gotymeModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 hidden">
+                <div class="bg-white rounded-lg shadow-lg p-4 sm:p-8 max-w-xs sm:max-w-sm w-full relative">
+                    <h2 class="font-regular mb-4 text-black text-center">Send gift to Neil</h2>
+                    <img class="mx-auto mb-4 w-40" src="asset/gotyme-qr.jpeg" alt="Gotyme Logo">
+                    <p class="mb-2 text-center">Send your gift via <span class="font-bold text-blue-900">GOTYME</span>:</p>
+                    <p class="font-regular mb-2"><span class="font-bold">Account Name:</span> Neil Bryan L. Pita</p>
+                    <p class="font-regular mb-2"><span class="font-bold">Account Number:</span> 09913451748</p>
+                    <button class="rounded-lg w-full bg-blue-600 p-2 text-white font-bold" id="closeGotymeModalBtn">Thank you so much!</button>
+                </div>
+            </div>
+            <script>
+                document.getElementById('openGcashModalBtn').onclick = function() {
+                    document.getElementById('gcashModal').classList.remove('hidden');
+                };
+                document.getElementById('openGotymeModalBtn').onclick = function() {
+                    document.getElementById('gotymeModal').classList.remove('hidden');
+                };
+                document.getElementById('openMayaModalBtn').onclick = function() {
+                    document.getElementById('mayaModal').classList.remove('hidden');
+                };
+                document.getElementById('closeGcashModalBtn').onclick = function() {
+                    document.getElementById('gcashModal').classList.add('hidden');
+                };
+                document.getElementById('closeMayaModalBtn').onclick = function() {
+                    document.getElementById('mayaModal').classList.add('hidden');
+                };
+                document.getElementById('closeGotymeModalBtn').onclick = function() {
+                    document.getElementById('gotymeModal').classList.add('hidden');
+                };
+                document.getElementById('gcashModal').onclick = function(e) {
+                    if (e.target === this) this.classList.add('hidden');
+                };
+                document.getElementById('mayaModal').onclick = function(e) {
+                    if (e.target === this) this.classList.add('hidden');
+                };
+                document.getElementById('gotymeModal').onclick = function(e) {
+                    if (e.target === this) this.classList.add('hidden');
+                };
+            </script>
+        </div>
+    </section>
+</body>
+</html>
